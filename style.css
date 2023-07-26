@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pagecontent {
+    position: relative;
+}
+
+.heading {
+   background-image: url('backgroundimage.jpg');
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+}
+
+.backgroundimage {
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 70px;
+}
+
+.logo {
+    padding: 40px;
+    background-color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+img {
+    width: 90px;
+    height: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.logo a {
+    padding: 0;
+    margin-right: 10px;
+    width: 110px
+}
+
+.get {
+    color:#fff ;
+    padding: 25px;
+    margin-right: 40px;
+    background-color: red;
+
+}
+
+.heading {
+    font-size: 40px;
+    color: white;
+    background-color: blue;
+    margin-top: 40px;
+}
+
+.subheading {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: blue;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: orange;
+    width: 55%;
+    height: 250px;
+    margin-left: 35%;
+    overflow: hidden;
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width:100%;
+    height: 100%;
+    
+    
+    
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    background-color: orange;
+    margin-top: 50px;
+    
+}
+
+.child span{
+    margin: 10px 0px;
+}
+
+.child a {
+    margin: 10px 0px;
+}
+
+.mainSpecilization {
+    width: 80%;
+    margin-left: 130px;
+}
+
+.specialization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.specialization span {
+    font-size: 30px;
+    background-color: white;
+    color: black;
+}
+
+.specialization a {
+    background-color: white;
+}
+
+.main-revolution {
+    width: 100%;
+    height: 225px;
+    display: flex;
+    margin: 90px 0px;
+    background-color: orange;
+    
+}
+
+.revolution {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    padding: 20px;
+    width: 20%;
+}
+
+
+.revolution span {
+    font-size: 17px;
+    margin: 15px;
+}
+
+.revolution span img {
+    height: 60px;
+    width: 60px;
+}
+
+.revolutionImg {
+    height: 40px;
+    width: 60px;
+}
+
+.revolution a {
+    margin-left: 15px;
+}
+
+
+.constructionImg {
+    display: flex;
+
+}
+
+.constructionImg span {
+    height: 400px;
+    width: 600px;
+}
+
+.constructionImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.desc {
+    margin-left: 60px;
+}
+
+.desc h1{
+
+}
+
+.desc p {
+    margin-top: 40px;
+}
+
+.desc div {
+    margin-top: 40px;
+}
+
+.mainWork {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    margin-top: 90px;
+}
+
+.projects {
+    width: 95%;
+    margin-left: 40px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    background-color: orange;
+    height: 200px;
+}
+
+.work div {
+
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageContainer img {
+    height: 400px;
+    width: 100%
+}
+
+.container{
+    width: 95%;
+    height: 350px;
+    padding: 1px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: orange;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.proffessionals {
+    width: 90%;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 200px;
+    background-color: orange;
+}
+
+.headingProffessionals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headingProffessionals span {
+    color: black;
+}
+
+.characters {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: auto;
+}
+
+.characters img {
+    height: 400px;
+    width: 100%;
+}
+
+.characters h1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.characters p {
+    margin-left: 30px;
+}
